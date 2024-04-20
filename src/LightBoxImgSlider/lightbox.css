@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.image-listig {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-listig > div{
+flex-grow:1 ;
+flex-basis: 33%;
+padding: 5px;
+cursor: pointer;
+/* gap: 5%; */
+}
+
+.image-listig >div img{
+    width: 100%;
+    border: 3px solid gray;
+}
+.image-listig >div.active img{
+    border-color: rgb(136, 136, 216);
+}
+.img-navigation{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3em;
+    cursor: pointer;
+
+}
+.next {
+    right: 10px;
+    
+}
+.prev{
+    left:10px
+}

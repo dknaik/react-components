@@ -1,0 +1,59 @@
+.faq-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 40px;
+  background: white;
+}
+.faq-inner-container {
+  display: flex;
+  flex-direction: column;
+}
+.faq-inner-container p {
+  cursor: pointer;
+}
+
+.answers {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease; /* Add transition properties */
+}
+
+.answers.active {
+  display: block;
+  opacity: 1;
+  max-height: 1000px; /* Adjust this value to the maximum height of your answer */
+}
+.rotate-90 {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+  display: block;
+  width: auto;
+}
+
+.faq-inner-container div{
+    /* background: forestgreen; */
+    display: flex;
+    padding: 0px 60px;
+    flex-direction: column;
+    /* flex-grow: 1; */
+}
+
+.question-container{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+.question-container .rotate-90{
+    display: flex;
+   
+}
+.arrow{
+background-color: antiquewhite;
+}
+
+
+

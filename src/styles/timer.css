@@ -1,0 +1,14 @@
+.container{
+width: 50%;
+margin: auto;
+
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-2{
+    margin-top: 8px ;
+    margin-bottom: 8px;
+}

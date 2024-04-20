@@ -1,0 +1,22 @@
+.suggestion-area{
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+
+}
+
+.suggestion-area li{
+    cursor: pointer;
+}
+.auto-sugg-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+
+}
+.auto-sugg-container input{
+    width: 300px;
+    margin-bottom: 5px;
+}

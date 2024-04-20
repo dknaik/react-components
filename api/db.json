@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id":1,
+      "name":"Dinesh Naik",
+      "email":"dknaik@gmail.com",
+      "address":"Bannergatta road Bandlore"
+    },
+    {
+      "id":2,
+      "name":"Ganesh Naik",
+      "email":"dknaik@gmail.com",
+      "address":"Bannergatta road Bandlore"
+    },
+    {
+      "id":3,
+      "name":"Maneesh Naik",
+      "email":"dknaik@gmail.com",
+      "address":"Bannergatta road Bandlore"
+    }
+  ]
+}

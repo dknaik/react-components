@@ -1,0 +1,27 @@
+.beer{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-container{
+    /* width:50%; */
+}
+
+.beer img{
+    width: 50%;
+}
+
+.beer > div:nth-child(2) {
+    display: inline-flex;
+    flex: 1 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.beer > div:nth-child(2) > h2 {
+display: inline-flex;
+flex: 1 100%;
+text-align: center;
+}

@@ -1,0 +1,25 @@
+.container-box {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.color-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.color-box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+}

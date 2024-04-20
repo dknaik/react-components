@@ -1,0 +1,55 @@
+body {
+  background-color: cadetblue;
+  /* color: #fff; */
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-box > input {
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.timer-button {
+  /* height: 20px; */
+  /* width: 20px; */
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px 20px;
+  /* background-color: ; */
+}
+
+.show-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.timer-box {
+  display: flex;
+}
+.timer-box > div {
+  font-size: 60px;
+  margin: 0 5px;
+}
+.action-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

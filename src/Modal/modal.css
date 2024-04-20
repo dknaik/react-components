@@ -1,0 +1,111 @@
+.modal-wrapper {
+  width: 100%;
+  border: 1px solid black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  opacity: 0;
+  animation-fill-mode: forwards;    
+}
+
+@keyframes slide {
+  from {
+    transform: translate(-50%, -200%);
+  }
+
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+.modal-wrapper.active {
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+@keyframes slideOut {
+    from {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: translate(-50%, -200%);
+      opacity: 0;
+    }
+  }
+.modal-wrapper:not(.active) {
+  animation-name: slideOut;
+  animation-duration: 1s;
+}
+
+
+
+.modal-close {
+  background-color: aqua;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 14px;
+  display: flex;
+  cursor: pointer;
+}
+
+/* .modal-wrapper:not(.active){
+animation: slideOutToTop 0.3s ease-in-out forwards;
+} */
+
+/* @keyframes slideOutToTop {
+    to{
+        transform: translate(-50%,-60%);
+        opacity: 0;
+    }
+} */
+.modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-btn {
+  margin: auto;
+  left: 50%;
+  margin-top: 10px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.modal-overlay {
+  height: 100vh;
+  background: gray;
+  z-index: -1;
+}
+.modal-wrapper.active {
+  opacity: 1;
+}
+
+.image-slide >img {
+    width: 100%;
+    display: none;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0.4;
+    } tp{
+        opacity: 1;
+    }
+}
+.image-slide >img.active {
+    display: block;
+    animation-name: fade;
+    animation-duration: .75s;
+
+}
+

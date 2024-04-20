@@ -1,0 +1,30 @@
+.tabs-container {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   margin-top: 20px;
+   width: 100%;
+  
+
+}
+.tabs {
+    display: flex;
+    flex-direction: row ;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.each-tabs {
+    cursor: pointer;
+}
+.pannel{
+ display: flex;
+ justify-content: center;
+ color: black;
+ background: white;
+ height: 400px;
+ 
+ 
+}
+
+

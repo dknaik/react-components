@@ -1,0 +1,19 @@
+.debounce-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width: 60%;
+
+}
+.list{
+    width: 60%;
+    background: white;
+    margin-top: 10px;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+    /* height: 20%; */
+}
